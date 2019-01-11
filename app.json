@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/android/android",
+    "pages/ios/ios",
+    "pages/details/details",
+    "pages/web/web",
+    "pages/meizi/meizi",
+    "pages/video/video",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0093e8",
+    "navigationBarTitleText": "IT精选资源",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#607D8B",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "backgroundColor": "#0093e8",
+    "color": "#BBBBBB",
+    "selectedColor": "#FFFFFF",
+    "position": "top",
+    "list": [
+     
+      {
+        "pagePath": "pages/android/android",
+        "text": "Android"
+      },
+      {
+        "pagePath": "pages/ios/ios",
+        "text": "iOS"
+      },
+      {
+        "pagePath": "pages/web/web",
+        "text": "前端"
+      },
+      {
+        "pagePath": "pages/meizi/meizi",
+        "text": "妹子"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频"
+      }
+    ]
+  }
+}

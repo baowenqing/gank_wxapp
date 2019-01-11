@@ -1,0 +1,5 @@
+<!--pages/details/details.wxml-->
+<!-- <web-view src="{{url}}"></web-view> -->
+<view>
+  <video class="video" src="{{url}} "></video>
+</view>

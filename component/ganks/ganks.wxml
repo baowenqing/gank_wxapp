@@ -1,0 +1,10 @@
+<!--component/ganks/ganks.wxml-->
+<view class="gank-list">
+  <block wx:for="{{ganks}}" wx:for-item="gank" wx:key="_id">
+    <view class="card" data-title="{{gank.title}}" data-url="{{gank.eg_url}}" data-type="{{gank.data_type}}" data-link_url="{{gank.link_url}}" bindtap="onItemClick">
+      <text class="title">{{gank.title}}</text>
+      <text class="date">{{gank.tag}} · {{gank["created_time"]["iso"]}}</text>
+    </view>
+  </block>
+  <text class="loading" hidden="{{loadingHidden}}">loading</text>
+</view>
